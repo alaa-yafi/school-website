@@ -1,0 +1,38 @@
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+     margin-right: 5px !important;
+    margin-bottom: 20px !important;
+   margin-left: 0;
+    .card-body1{background-color: rgb(126, 135, 185);}
+    .card-body2{background-color: cornflowerblue;}
+    .card-body3{background-color: pink;}
+    .card-body4{background-color:rgb(187, 187, 112);}
+    .card-title{ font-weight: bold;
+        font-size: medium;margin-top: 10px; }
+
+
+}
+
+.card{position: relative;
+
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: .25rem;
+  border: none;
+
+}
+.card-group .card{
+    margin-bottom: 0px;
+    .card-body a{
+        background-color: #d4d4d4;
+        border:1px solid #8c8c8c;}
+}
+
+  
