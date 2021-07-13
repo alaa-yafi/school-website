@@ -1,0 +1,13 @@
+
+$theme-colors:(
+    "primary":rgba(216, 112, 147, 0.529),
+    "secondary":rgb(119, 163, 163),
+    "danger":grey,
+   "warning":#f5f5DC,
+   "info":#8FBC8F,
+
+        )
+    ;
+    
+    @import "../../node_modules/@laylazi/bootstrap-rtl-scss/scss/bootstrap-rtl";
+    

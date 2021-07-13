@@ -1,0 +1,82 @@
+
+
+
+
+
+.top-students {
+    position: relative;
+  top:2px;
+    .card-group{
+        .card{
+            margin-right: 100px;
+            border:none !important;
+            .card-body {
+                .card-title{  text-align: center;
+                    right: 80px;
+                    position: relative;}
+                    .card-text{
+                        text-align: center;
+                        right: 80px;
+                        position: relative;
+            }
+            .card-body5 {
+                .card-title{text-align: center;
+                    right: 10px;
+                    position: relative;
+                    top:20px;
+
+                    .card-text{
+                        text-align: center;
+                        right: 10px;
+                        position: relative;
+                        top:20px;}
+                }
+
+            }
+
+            
+
+            
+           }
+           .card2{
+            margin-right: 100px;
+            border:none !important;
+           }
+           h3{
+  
+            text-align: center;
+              position: relative;
+              right: 130px!important;
+              top:-5px;
+          }
+
+    } 
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-group .card {
+    margin-right: 100px;
+    border:none !important;
+    img {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+        position: relative;}
+  
+    }
+}

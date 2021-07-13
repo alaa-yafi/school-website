@@ -1,0 +1,86 @@
+
+@import './_mixins.scss';
+@import './_variables.scss';
+
+@import './_card.scss';
+@import './top-students.scss';
+@import './custom.scss';
+
+  .custom-navbar{
+    @include nav-style($btn-secondary);
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .navbar-nav li a{
+        color: navy;}
+  }
+  .custom-navbar1{
+    @include nav-style($btn-primary);
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .navbar-nav li a{
+        color: navy;}
+  }
+  .custom-navbar2{
+    @include nav-style($btn-danger);
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .navbar-nav li a{
+        color: navy;}
+  }
+  .custom-navbar3{
+    @include nav-style($btn-warning);
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .navbar-nav li a{
+        color: navy;}
+  }
+  .custom-navbar4{
+    @include nav-style($btn-info);
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .navbar-nav li a{
+        color: $btn-danger;}
+  }
+
+  .custom-btn{color: black !important;
+    :hover{
+        background-color: $btn-primary-color-dark;
+        border: 1px solid $btn-primary-color-dark;
+        color:$btn-primary-color-dark;
+}
+
+
+.btn-block1{
+  @include button-style($btn-secondary);}
+  }.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+    img{height: 500px; min-width: 100%;}
+    .carousel-caption{
+        p{font-size: 20px;}
+        h5{
+            color:navy;
+            font-size: 50px;
+            text-decoration: underline;}
+        
+    }
+}
+
+ .btn-block{
+  margin-right: 10px  !important;
+  width:40% !important;   
+   position: relative;
+   
+  border: 1px solid;
+  background-color: $btn-primary !important;
+ }
+ 
